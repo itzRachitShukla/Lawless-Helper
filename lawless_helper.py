@@ -11,7 +11,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 
-token = "MTQwNDgwMzE0NzI3NjIyNjYwMQ.GqmoWU.v5FnIu-FZhtWekrRq0GqEIAaMIMcjTc-h6HrXE" # ⚠️ Never share this publicly
+token = "" # ⚠️ Never share this publicly
 bot = commands.Bot(command_prefix="?", intents=discord.Intents.all())
 level_up_channel = None
 REQUIRED_ROLE_ID = 1423163442319200256
@@ -278,3 +278,4 @@ async def boot(ctx):
     await bot.close()
 # ---------------- RUN BOT ----------------
 bot.run(token)
+
